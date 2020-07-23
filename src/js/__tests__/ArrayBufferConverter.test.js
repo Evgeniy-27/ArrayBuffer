@@ -1,4 +1,4 @@
-import ArrayBufferConverter, {getBuffer} from '../app';
+import ArrayBufferConverter, {getBuffer} from '../ArrayBufferConverter';
 
 const buffer = getBuffer();
 

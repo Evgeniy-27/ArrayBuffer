@@ -4,7 +4,7 @@ const buffer = getBuffer();
 
 test('Проверка метода load()', () => {
     ArrayBufferConverter.load(buffer);
-    expect(ArrayBufferConverter.buffer).toEqual(buffer);
+    expect(ArrayBufferConverter.buffer).toBe(buffer);
 });
 
 test("Проверка метода toString()", () => {
